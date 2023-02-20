@@ -117,7 +117,26 @@ This is almost similar when you have to develop a data platform. Customer can ch
 }
 ```
 
-## Step 2: Payload to Step function 
+## Step 2: Deploy Python Package Boto3 and Botocore to S3 
+Follow Steps https://docs.aws.amazon.com/emr/latest/EMR-Serverless-UserGuide/using-python-libraries.html
+
+##### Open Cloud Shell and execute these commands 
+```
+python3 -m venv pyspark_venv
+source pyspark_venv/bin/activate
+
+pip install --upgrade pip
+pip3 install boto3
+pip3 install botocore
+pip3 install venv-pack
+venv-pack -f -o pyspark_venv.tar.gz
+s3 cp pyspark_venv.tar.gz s3://<BUCKET NAME IN ENV FILE USE THAT BUCKET >/python-packages/
+```
+
+
+
+## Step 3: Payload to Step function 
+
 
 ```
 {
