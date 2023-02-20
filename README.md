@@ -2,6 +2,11 @@
 
 <img width="204" alt="12121" src="https://user-images.githubusercontent.com/39345855/220208798-27728701-cafb-41e4-bde7-43681d07f08a.PNG">
 
+### Video 
+* Automating EMR Serverless Workload |Creating|Submitting | Destroying EMR Cluster using Step Function
+* https://www.youtube.com/watch?v=V7bFwXBN5xc&feature=youtu.be
+* Automating orchestrating Spark Jobs for EMRServerless with Async callback Pattern using Stepfunction
+* https://www.youtube.com/watch?v=eRkT9BPbjPo&t=3s
 
 Automating Big Data Workload
 
